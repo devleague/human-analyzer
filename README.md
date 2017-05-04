@@ -31,7 +31,7 @@ Consider the Following:
 
 #### Summarize your findings to present to stakeholders in the company. Explain any trends and recommendations for improvement. 
   - Your summary may be submitted  in a google doc, pdf, or word doc.
-  - Summary must be at least 2 paragraphs and may include any kind of images, snapshots, links, or charts to help stakeholders interpret your findings.
+  - Must include a summary of the data, what business issues are there (if any), your approach and process, and how you came to your findings. Summaries may also include any images, snapshots, links, or charts to help stakeholders interpret your findings.
   
 #### Suggested tools to use for this challenge:
   - Google Sheets
