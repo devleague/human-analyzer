@@ -15,9 +15,11 @@ We do have some prior reports and this year's raw data file left by our previous
 ### Your Objective:
 Given the data provided for previous years, we need you to calculate the following:
   - What is the average participants per month, per year, per gender?
+  - What month(s) have the biggest jump in participants?
+
+Given the data provided for the first quarter (Jan-Mar) of 2017, we need you to calculate the following:
   - What is the average score per month?
   - What is the average score per gender?
-  - What month(s) have the biggest jump in participants?
 
 Given the data provided for the first quarter (Jan-Mar) of 2017, we need you to calculate the following projections for the 2nd quarter (Apr-Jun) so we can plan accordingly for our next launch:
   - How many applicants can we expect for the second quarter?
