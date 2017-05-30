@@ -5,8 +5,9 @@
 ### Industry:Human Survival Consulting and Intergalactic Space Travel
 ### Project Description:Data aggregation and projection
 ### Data Description:
-  - Total applicant aggregate report from January 2014 - March 2017 (previous_years_raw_data.csv)
+  - Total applicant aggregate report from January 2014 - March 2017 (previous_years.csv)
   - Raw applicant and score data from January 2017 - March 2017 (2017_1st_quarter_raw_data.csv)
+  - Cleansed applicant and score data from previous years - 2014, 2015, 2017 (2014 Scores.csv, 2015 Scores.csv, 2016 Scores.csv)
 ### Welcome:
 Hello new data wizard! Welcome to the Humans4Future organization. We are a human survival oriented organization tasked with persisting the survival of the human race as we explore new intergalactic territories. We recently had our Human Reproduction Data Specialist disappear mysteriously and we need to continue to plan for our Mars Relocation Project for the rest of the year. Human survival is at hand.
 
