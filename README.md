@@ -20,30 +20,30 @@ The data may not be fully clean but we’ll leave that up to you to decipher.
 ### Your Objective:
 Given the test data provided for previous years, we need you to calculate the following about the applicant pool:
 
-  -How many applicants do we get on average per month?
-  -What percentage of those applicants are female (on average)?
-  -How many applicants do we get on average for each of the 6 months for each gender?
-  -Do any of the months stand out in any way? Should we prepare differently for any month(s)?
+  - How many applicants do we get on average per month?
+  - What percentage of those applicants are female (on average)?
+  - How many applicants do we get on average for each of the 6 months for each gender?
+  - Do any of the months stand out in any way? Should we prepare differently for any month(s)?
   
 Given the data provided for the first quarter (Jan-Mar) of 2017, we need you to calculate the following:
-  -What is the average score per month?
-  -What is the average score per gender?
+  - What is the average score per month?
+  - What is the average score per gender?
 
 Given the data provided for the first quarter (Jan-Mar) of 2017, we need you to calculate the following projections for the 2nd quarter (Apr-Jun) so we can plan accordingly for our next launch:
-  -How many applicants can we expect for the second quarter?
-  -What can we expect the average score of applicants to be by gender?
-  -What suggestions can you make based on the formatting of the raw data to make this process easier in the future?
+  - How many applicants can we expect for the second quarter?
+  - What can we expect the average score of applicants to be by gender?
+  - What suggestions can you make based on the formatting of the raw data to make this process easier in the future?
 
 
 ### Deliverable
 Create a report from the 2017 YTD data that stakeholders can easily read.
-  -Your report can be submitted in a Google sheet, Excel sheet, Google doc, or Word doc.
-  -Be creative, imagine you are presenting this to non-technical stakeholders. Think about visualizing your data.
-  -Think about the data holistically and separately, does it make sense to split your data up, does it make sense to have multiple reports?
+  - Your report can be submitted in a Google sheet, Excel sheet, Google doc, or Word doc.
+  - Be creative, imagine you are presenting this to non-technical stakeholders. Think about visualizing your data.
+  - Think about the data holistically and separately, does it make sense to split your data up, does it make sense to have multiple reports?
 
 Summarize your findings and process to present to stakeholders in the company. Explain any trends you are able to detect.
-  -Your summary may be submitted in a Google doc, Word doc, or PDF.
-  -Please be detailed in your summary, detail your process and include any images, snapshots, links, or charts to help stakeholders interpret your findings.
+  - Your summary may be submitted in a Google doc, Word doc, or PDF.
+  - Please be detailed in your summary, detail your process and include any images, snapshots, links, or charts to help stakeholders interpret your findings.
 
 Suggested tools to use for this challenge:
 Google Sheets
