@@ -1,8 +1,10 @@
+// Reads the individual data from 2014-2016 and adds up total scores for each gender
 const csv = require('fast-csv');
 
 var maleCount= 0;
 var femaleCount = 0;
 
+// Year object
 var month = {
   Jan: {
     male: 0,
@@ -29,13 +31,15 @@ var month = {
     female: 0
   }
 };
-
+// Reads data from csv
 csv
   .fromPath("./Data/2016 Scores.csv")
   .on("data", function(data){
+      // Grabs the data from each line
       var gender = data[2];
       var score = data[3];
       var date = data[4];
+      // adds the score to the variable and object based off gender
       var objGender = '';
         if(gender == "Female"){
           objGender = 'female';

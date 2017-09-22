@@ -1,31 +1,21 @@
-// Given the test data provided for previous years, we need you to calculate the following about the applicant pool:
-
-//   - How many applicants do we get on average per month?
-//   - What percentage of those applicants are female (on average)?
-//   - How many applicants do we get on average for each of the 6 months for each gender?
-//   - Do any of the months stand out in any way? Should we prepare differently for any month(s)?
-
-// Given the data provided for the first quarter (Jan-Mar) of 2017, we need you to calculate the following:
-//   - What is the average score per month?
-//   - What is the average score per gender?
-
-// Given the data provided for the first quarter (Jan-Mar) of 2017, we need you to calculate the following projections for the 2nd quarter (Apr-Jun) so we can plan accordingly for our next launch:
-//   - How many applicants can we expect for the second quarter?
-//   - What can we expect the average score of applicants to be by gender?
-//   - What suggestions can you make based on the formatting of the raw data to make this process easier in the future?
-
+// Program that reads the raw data and adds up the scores for each month and for each gender
 const csv = require('fast-csv');
 
+// Total gender count
 var maleCount = 0;
 var femaleCount = 0;
 
+// total gender score
 var maleScore = 0;
 var femaleScore = 0;
+// Average score for each month
 var forthYear = {
   Jan: 0,
   Feb: 0,
   Mar: 0
 }
+
+// Total score for each gender for each month
 var monthGender = {
   Jan:{
     male:0,
@@ -41,14 +31,16 @@ var monthGender = {
   },
 }
 
-
+// Reads data from csv
 csv
   .fromPath("./Data/2017_1st_quarter_raw_data.csv")
   .on("data", function(data){
+      // Grabs relevant data from csv
       var objGender = '';
       var gender = data[1];
       var checkNum = parseInt(data[7]);
       var date = data[8];
+      // Filters based off gender
         if(gender == '0'){
           objGender = 'male';
           maleScore += checkNum;
